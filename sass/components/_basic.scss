@@ -77,3 +77,6 @@ img {
     color: $primary-bt-color;
     background-color: $accent-color;
 }
+.icon {
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1);
+}

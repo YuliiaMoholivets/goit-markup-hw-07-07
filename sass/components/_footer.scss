@@ -15,6 +15,9 @@
 
 .site-footer__logo {
     color: $primary-bt-color;
+    &--accent{
+        color:$accent-color
+    }
 }
 
 .site-footer__social-links {

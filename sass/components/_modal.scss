@@ -42,17 +42,16 @@
     align-items: center;
     justify-content: center;
     display: inline-flex;
+    &:hover,
+    &:focus{
+        fill: $accent-color;
+    }
 }
 
 .close-wrap {
     width: 100%;
     height: auto;
     fill: inherit;
-}
-
-.btn-close:hover,
-.btn-close:focus {
-    fill: $accent-color;
 }
 
 .form__title {

@@ -5,9 +5,9 @@
     line-height: 1.19;
     text-decoration: none;
     color: $title-text-color-one;
+
+    &--accent{
+    color: $accent-color;
+    }
 }
 
-.logo__accent {
-    color: $accent-color;
-    font-family: Raleway, sans-serif;
-}
